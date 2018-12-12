@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\ArchViz.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{2E690A3A-CE95-4461-9E72-6DF5C6FEDAE5}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\ArchViz.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\ArchVizEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{8D84E4E4-B5EE-4338-86E9-6DF5155E1F45}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\ArchViz">
+			<UniqueIdentifier>{4320B8D2-5E2A-4CD9-BB9D-F5C2FDC0348A}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\ArchViz\ArchViz.Build.cs">
+			<Filter>Source\ArchViz</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\ArchViz\ArchViz.cpp">
+			<Filter>Source\ArchViz</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ArchViz\ArchViz.h">
+			<Filter>Source\ArchViz</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ArchViz\ArchVizGameModeBase.cpp">
+			<Filter>Source\ArchViz</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ArchViz\ArchVizGameModeBase.h">
+			<Filter>Source\ArchViz</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

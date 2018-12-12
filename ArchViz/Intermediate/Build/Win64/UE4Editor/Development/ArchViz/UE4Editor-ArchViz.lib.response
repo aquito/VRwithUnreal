@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-ArchViz.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\GameFutures\Documents\GitHub\VRwithUnreal\ArchViz\Intermediate\Build\Win64\ArchVizEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\GameFutures\Documents\GitHub\VRwithUnreal\ArchViz\Intermediate\Build\Win64\UE4Editor\Development\ArchViz\ArchViz.cpp.obj"
+"C:\Users\GameFutures\Documents\GitHub\VRwithUnreal\ArchViz\Intermediate\Build\Win64\UE4Editor\Development\ArchViz\ArchVizGameModeBase.cpp.obj"
+"C:\Users\GameFutures\Documents\GitHub\VRwithUnreal\ArchViz\Intermediate\Build\Win64\UE4Editor\Development\ArchViz\ArchViz.init.gen.cpp.obj"
+"C:\Users\GameFutures\Documents\GitHub\VRwithUnreal\ArchViz\Intermediate\Build\Win64\UE4Editor\Development\ArchViz\ArchVizGameModeBase.gen.cpp.obj"
+"C:\Users\GameFutures\Documents\GitHub\VRwithUnreal\ArchViz\Intermediate\Build\Win64\UE4Editor\Development\ArchViz\PCLaunch.rc.res"
+/OUT:"C:\Users\GameFutures\Documents\GitHub\VRwithUnreal\ArchViz\Intermediate\Build\Win64\UE4Editor\Development\ArchViz\UE4Editor-ArchViz.lib"
